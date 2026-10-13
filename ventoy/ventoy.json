@@ -1,0 +1,10 @@
+{
+    "theme": {
+        "file": "/grub/themes/ventoy/theme.txt",
+        "fonts": [
+            "/grub/fonts/luximb.pf2",
+            "/grub/themes/ventoy/luximb36.pf2",
+            "/grub/themes/ventoy/luximb18.pf2"
+        ]
+    }
+}

@@ -1,0 +1,49 @@
+desktop-image: "background.png"
+title-text: "Ventoy  USB"
+title-color: "#ffffff"
+title-font: "Luxi Mono Bold 36"
+message-color: "#ffffff"
+message-font: "Luxi Mono Bold 18"
+
+
++ boot_menu {
+    left = 3%
+    width = 94%
+    top = 18%
+    height = 68%
+
+    item_color = "#ffffff"
+    selected_item_color = "#ffffff"
+    item_font = "Luxi Mono Bold 18"
+
+    item_height = 34
+    item_spacing = 2
+    item_padding = 10
+
+    item_icon_space = 0
+
+    selected_item_pixmap_style = "select_*.png"
+
+    scrollbar = false
+}
+
++ progress_bar {
+    id = "__timeout__"
+    text = "@TIMEOUT_NOTIFICATION_SHORT@"
+    left = 85%
+    width = 12%
+    top = 93%
+    height = 20
+    text_color = "#ffffff"
+    bar_style = "*"
+    highlight_style = "*"
+}
+
++ label {
+    text = "@VTOY_HOTKEY_TIP@"
+    left = 3%
+    top = 93%
+    color = "#cccccc"
+    font = "Luxi Mono Bold 18"
+    align = "left"
+}
